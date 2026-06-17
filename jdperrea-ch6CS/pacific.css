@@ -7,8 +7,8 @@ body {
 }
 
 #wrapper {
-    margin-left: auto; margin-right: auto;
     width: 80%;
+    margin: auto;
     min-width: 960px; max-width: 2048px;
     background-color: #ffffff;
     box-shadow: 3px 3px 3px #333;
@@ -16,21 +16,20 @@ body {
 
 header {
     background-color: #002171;
+    color:#ffffff;
     background-image: url(sunset.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    color:#ffffff;
-   height: 60px;
-   text-align: center;
-   padding-top: 15px;
-    
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 nav {
     background-color:#ffffff;
-    padding: 1em;
     font-weight: bold;
     text-align: center;
+    padding: 1em;
 }
 
 nav a {
