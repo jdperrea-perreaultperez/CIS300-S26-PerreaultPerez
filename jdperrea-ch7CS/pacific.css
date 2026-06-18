@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    min-width: 960px; max-width: 2048px;
+    background-color: #90c7e3;
+    border: 1px solid #003;
+    box-shadow: 3px 3px 3px #333;
+    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+}
+
+body {
+    background-color: #eaeaea;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #002171;
+    color:#ffffff;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px; padding-left: 3em;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:link{
+    color: #ffffff;
+    }
+
+header a:visited {
+        color: #ffffff;
+    }
+
+header a:hover {
+        color: #90c7e3;
+    }
+
+nav {
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link{
+color: #344873;   
+}
+
+:visited {
+color: #344873;
+}
+
+nav a:hover {
+color: #a52a2a;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+
+main {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    overflow: auto;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-right: 2em; padding-left: 2em;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3em; letter-spacing: 0.25em;
+}
+
+main ul {
+    list-style-image: url(marker.gif);
+}
+
+h2 {
+    color: #1976d2;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #ccc
+}
+
+h3{
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+dt{
+    color: #002171;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    padding: 2em;
+    margin-left: 190px;
+    background-color: #ffffff;
+}
+
+#homehero {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(coast2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.resort {
+    color: #1976d2;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 90%;
+}
