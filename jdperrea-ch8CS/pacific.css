@@ -168,4 +168,48 @@ footer {
     flex-direction: row;
     }
 
+@media screen and (min-width: 1024px) {
+#wrapper {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #002171;
+    box-shadow: 3px 3px 3px #002171;
+}
+
+nav {
+    text-align: left;
+    padding-left: 1em;
+}
+
+@supports (display: grid) {
+
+    nav ul{
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+.hero {
+    grid-area: hero;
+}
+
+header { grid-area: header;}
+nav { grid-area: nav;}
+main { grid-area: main;}
+footer { grid-area: footer;}
+
+    #wrapper {
+        display: grid;
+        grid-template-columns: 180px;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header header"
+        "nav hero hero"
+        "nav main main"
+        "nav main main"
+        "nav footer footer";
+    }
+}
+
+
+}
 }
