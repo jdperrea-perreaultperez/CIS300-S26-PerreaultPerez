@@ -142,6 +142,30 @@ footer {
     font-size: 90%;
 }
 
+table {
+border: 2px solid #39c;
+border-collapse: collapse;
+}
+
+td {
+padding: 0.5em;
+border: 2px solid #39c;
+text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #f5fafc;
+}
+
+th {
+padding: 0.5em;
+border: 2px solid #39c;
+}
+
 
 @media screen and (min-width: 600px) {
     nav ul
